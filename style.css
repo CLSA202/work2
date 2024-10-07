@@ -1,0 +1,102 @@
+@media(min-width:1200px){
+    .mobile{
+        display: none;
+    }
+}
+
+
+
+
+@media(max-width: 1100px){
+    .desktop{
+        display: none;
+    }
+
+
+}
+
+
+.heading{
+    width: 100%;
+    display: flex;
+    color: white;
+    background-color: rgb(68, 12, 82);
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.heada{
+    width: 10%;
+    padding-left: 5%;
+    padding-top: 1%;
+}
+
+.headb{
+    width: 60%;
+}
+
+.headc{
+    width: 25%;
+}
+
+.headb ul{
+    display: flex;
+}
+
+.headb ul li{
+    display: inline;
+    padding-left: 5%;
+    padding-right: 5%;
+    font-size: 150%;
+}
+
+.headc ul{
+    display: flex;
+}
+
+.headc ul li{
+    display: inline;
+    width: 100%;
+    font-size: 150%;
+}
+
+
+.headb ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+.next{
+    background-image: url(images/back2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    padding-top: 20%;
+    padding-bottom: 20%;
+    text-align: center;
+}
+
+.next h1{
+    font-size: 400%;
+    color: white;
+    font-weight: bold;
+}
+
+.nextmob{
+    background-image: url(images/back2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    margin-bottom: 10%;
+    padding-top: 75%;
+    padding-bottom: 30%;
+    text-align: center;
+    height: 60vh;
+}
+
+.nextmob h1{
+    font-size: 300%;
+    color: white;
+    font-weight: bold;
+}
+
